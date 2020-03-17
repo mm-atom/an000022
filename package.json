@@ -38,8 +38,12 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"node-fetch": "2.6.0"
+	},
 	"devDependencies": {
+		"@mmstudio/config": "latest",
+		"@types/node-fetch": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
@@ -48,5 +52,8 @@
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
 		"typescript": "next"
+	},
+	"peerDependencies": {
+		"@mmstudio/config": "*"
 	}
 }
