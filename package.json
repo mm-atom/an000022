@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000022",
-	"version": "1.0.202003171131",
+	"version": "1.0.202004170809",
 	"description": "获取token",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
